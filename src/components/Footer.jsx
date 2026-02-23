@@ -69,7 +69,7 @@ const Footer = () => {
                     color: '#64748b',
                     fontSize: '0.9rem'
                 }}>
-                    <p>© {new Date().getFullYear()} SteelFrame Construction Inc. All rights reserved.</p>
+                    <p>© {new Date().getFullYear()} SteelFrame Construction Inc. All rights reserved by Kavinesh.</p>
                 </div>
             </div>
 
