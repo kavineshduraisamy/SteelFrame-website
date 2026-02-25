@@ -76,7 +76,7 @@ const ContactForm = () => {
                         id="name"
                         value={formData.name}
                         onChange={handleChange}
-                        placeholder="John Doe"
+                        placeholder="Name"
                         style={{
                             width: '100%',
                             padding: '0.75rem',
@@ -95,7 +95,7 @@ const ContactForm = () => {
                         id="email"
                         value={formData.email}
                         onChange={handleChange}
-                        placeholder="john@example.com"
+                        placeholder="name@example.com"
                         style={{
                             width: '100%',
                             padding: '0.75rem',
