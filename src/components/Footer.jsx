@@ -48,7 +48,7 @@ const Footer = () => {
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', color: '#94a3b8' }}>
                                 <MapPin size={20} color="var(--primary)" />
-                                <span>123 Sulur, Coimbatore Cluity, 641402</span>
+                                <span>123 Sulur, Coimbatore City, 641402</span>
                             </div>
                             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', color: '#94a3b8' }}>
                                 <Phone size={20} color="var(--primary)" />

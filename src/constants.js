@@ -1,52 +1,59 @@
+
+import helixPlaza from "./assets/images/helixPlaza.jpg";
+import riverstoneHeights from "./assets/images/riverstoneHeights.jpg";
+import nexusSupplyHub from "./assets/images/nexusSupplyHub.jpg";
+import skylineBridge from "./assets/images/skylineBridge.jpg";
+import zenithResearchLab from "./assets/images/zenithResearchLab.jpg";
+
 export const PROJECTS = [
     {
         id: 1,
         name: "The Helix Plaza",
         location: "Downtown Metropolis",
-        budget: "$45M",
+        budget: "₹ 45M",
         progress: 85,
         status: "ongoing",
-        image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop",
+        image: helixPlaza,
         description: "A 40-story commercial skyscraper featuring state-of-the-art structural steel framework and glass curtain walls."
     },
     {
         id: 2,
         name: "Riverstone Heights",
         location: "North Riverside",
-        budget: "$28M",
+        budget: "₹ 28M",
         progress: 100,
         status: "completed",
-        image: "https://images.unsplash.com/photo-1448630360428-654a65753fc5?q=80&w=1200&auto=format&fit=crop",
+        image: riverstoneHeights,
         description: "Multi-family luxury residential complex designed with sustainable materials and modern industrial aesthetics."
     },
     {
         id: 3,
         name: "Nexus Supply Hub",
         location: "East Industrial Zone",
-        budget: "$12M",
+        budget: "₹ 12M",
         progress: 30,
         status: "upcoming",
-        image: "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?q=80&w=1200&auto=format&fit=crop",
+        image: nexusSupplyHub,
         description: "Strategic logistics facility utilizing modular steel construction for rapid deployment and maximum efficiency."
     },
     {
         id: 4,
         name: "Skyline Bridge",
         location: "Bay Area",
-        budget: "$75M",
+        budget: "₹ 75M",
         progress: 60,
         status: "ongoing",
-        image: "https://images.unsplash.com/photo-1510431198580-7727c9fa1e3a?q=80&w=1200&auto=format&fit=crop",
+        image: skylineBridge,
         description: "Iconic structural engineering marvel connecting the city districts with high-tensile steel cabling."
     },
     {
         id: 5,
         name: "Zenith Research Lab",
         location: "Innovation Park",
-        budget: "$22M",
+        budget: "₹ 22M",
         progress: 100,
         status: "completed",
-        image: "https://images.unsplash.com/photo-1516937941344-00b4e0337589?q=80&w=1200&auto=format&fit=crop",
+        image: zenithResearchLab,
         description: "Specialized laboratory facility built with vibration-isolated foundations and advanced climate control systems."
     }
 ];
